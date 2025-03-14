@@ -109,8 +109,8 @@ O dataset possui **20.640 amostras** e **8 features**. Ele foi derivado do censo
 📂 projeto-previsao-casas/
 │── 📜 README.md                # Documentação do projeto
 │── 📜 requirements.txt         # Dependências do projeto
-│── 📝 california_housing_analysis.ipynb # Notebook com análise e modelagem
-│── 🚀 app.py                   # Código da API FastAPI
+│── 📝 Untitled5.ipynb # Notebook com análise e modelagem
+│── 🚀 main.py                   # Código da API FastAPI
 │── 🎯 california_housing_model.pkl  # Modelo treinado
 └── 📂 data/                     # Diretório de armazenamento dos dados
 ```
