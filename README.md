@@ -5,6 +5,7 @@ Este repositório contém um projeto de machine learning focado na previsão de 
 ---
 
 ## **Objetivos do Projeto**
+
 1. **Análise Exploratória de Dados (EDA)**:
    - Entender a estrutura e as características do dataset.
    - Identificar padrões, correlações e outliers.
@@ -23,6 +24,7 @@ Este repositório contém um projeto de machine learning focado na previsão de 
 ---
 
 ## **Dataset: California Housing Dataset**
+
 O dataset utilizado é o **California Housing Dataset**, disponível na biblioteca `scikit-learn`. Ele contém informações sobre distritos na Califórnia, incluindo:
 
 - **Features**:
@@ -45,6 +47,7 @@ O dataset possui **20.640 amostras** e **8 features**. Ele foi derivado do censo
 ## **Trabalho Realizado**
 
 ### **1. Análise Exploratória de Dados (EDA)**
+
 - **Visualização de Dados**:
   - Histogramas para entender a distribuição das features.
   - Scatter plots para analisar a relação entre localização geográfica e valor das casas.
@@ -54,6 +57,7 @@ O dataset possui **20.640 amostras** e **8 features**. Ele foi derivado do censo
   - Análise de estatísticas descritivas para detectar valores extremos.
 
 ### **2. Modelagem Preditiva**
+
 - **Pipeline de Machine Learning**:
   - Criação de um pipeline com normalização (`StandardScaler`) e regressão Ridge (`RidgeCV`).
   - Treinamento do modelo com validação cruzada para garantir robustez.
@@ -62,6 +66,7 @@ O dataset possui **20.640 amostras** e **8 features**. Ele foi derivado do censo
   - Score R² médio de **0.553 ± 0.062**, indicando que o modelo explica 55.3% da variância do target.
 
 ### **3. Colocação do Modelo em Produção**
+
 - **API com FastAPI**:
   - Criação de um endpoint `/predict` que recebe dados de entrada e retorna o valor previsto da casa.
   - Exemplo de requisição:
@@ -86,6 +91,7 @@ O dataset possui **20.640 amostras** e **8 features**. Ele foi derivado do censo
 ---
 
 ## **Tecnologias Utilizadas**
+
 - **Python**: Linguagem de programação principal.
 - **Scikit-learn**: Para criação e treinamento do modelo de regressão Ridge.
 - **Pandas e NumPy**: Para manipulação e análise de dados.
