@@ -146,7 +146,6 @@ Acesse `http://127.0.0.1:8000/docs` para testar a API via Swagger UI.
 
 ## 📌 **Autor**
 
-👤 [Seu Nome](https://github.com/seu-usuario)
-📧 Email: `seu.email@example.com`
-📍 LinkedIn: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
+👤 [Alan Martins](https://github.com/seu-usuario)
+ 
 
