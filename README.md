@@ -102,3 +102,35 @@ O dataset possui **20.640 amostras** e **8 features**. Ele foi derivado do censo
 ---
 
 ## **Estrutura do Repositório**
+
+
+---
+
+### **Explicação das Formatações**
+
+1. **Estrutura do Repositório**:
+├── app.py # Código da API FastAPI
+├── california_housing_analysis.ipynb # Notebook com análise e modelagem
+├── california_housing_model.pkl # Modelo treinado
+├── requirements.txt # Dependências do projeto
+└── README.md # Documentação do projeto
+
+2. **Como Usar**:
+   - Usei listas numeradas para os passos.
+   - Blocos de código (```bash) para comandos de terminal.
+
+3. **Autor**:
+   - Usei quebras de linha (`  `) para separar nome e links.
+   - Links podem ser adicionados usando Markdown, por exemplo:
+     ```markdown
+     [Meu Perfil no GitHub](https://github.com/seu-usuario)
+     ```
+
+---
+
+### **Como Usar**
+1. Copie o conteúdo acima.
+2. Cole no seu arquivo `README.md`.
+3. Substitua `[Nome do Autor]`, `[Link para o seu perfil no GitHub]` e `[Link para o seu LinkedIn]` pelas suas informações.
+
+Se precisar de mais ajustes, é só avisar! 😊
